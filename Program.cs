@@ -8,20 +8,20 @@ namespace ClassMetotDemo
         {
             Customer kullanici1 = new Customer();
             kullanici1.Id = 1;
-            kullanici1.Ad  = " Kubilay";
-            kullanici1.Soyad = "Uçan";
-            kullanici1.Yas = 22;
-            kullanici1.TelefonNumarasi = 5398148990;
-            kullanici1.TcKimlikNo = 54543441106;
+            kullanici1.Name  = " Kubilay";
+            kullanici1.Surname = "Uçan";
+            kullanici1.Age = "22";
+            kullanici1.PhoneNumber = 5398148990;
+            kullanici1.IdentityNumber = 54543441106;
 
             Customer kullanici2 = new Customer();
             kullanici2 = new Customer();
             kullanici2.Id = 2;
-            kullanici2.Ad = "Canberk";
-            kullanici2.Soyad = "Ekinci";
-            kullanici2.Yas = 18;
-            kullanici2.TelefonNumarasi = 5354121845;
-            kullanici2.TcKimlikNo = 47516257789;
+            kullanici2.Name = "Canberk";
+            kullanici2.Surname = "Ekinci";
+            kullanici2.Age = "18";
+            kullanici2.PhoneNumber = 5354121845;
+            kullanici2.IdentityNumber = 47516257789;
 
             Customer [] kullanicilar = new Customer[] { kullanici1, kullanici2 };
 

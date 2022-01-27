@@ -11,23 +11,23 @@ namespace ClassMetotDemo
 
         {
             Console.WriteLine("Müşteri Ekleme İşlemi Başarılı Bir Şekilde Gerçekleştirildi!");
-            Console.WriteLine("Müşteri Adı : " + musteriler.Ad);
-            Console.WriteLine("Müşteri Soyadı : " + musteriler.Soyad);
-            Console.WriteLine("Müşteri Yaşı : " + musteriler.Yas);
-            Console.WriteLine("Müşteri Telefonu : " + musteriler.TelefonNumarasi);
-            Console.WriteLine("Müşteri Kimliği : " + musteriler.TcKimlikNo);
+            Console.WriteLine("Müşteri Adı : " + musteriler.Name);
+            Console.WriteLine("Müşteri Soyadı : " + musteriler.Surname);
+            Console.WriteLine("Müşteri Yaşı : " + musteriler.Age);
+            Console.WriteLine("Müşteri Telefonu : " + musteriler.PhoneNumber);
+            Console.WriteLine("Müşteri Kimliği : " + musteriler.IdentityNumber);
         }
 
         public void Sil(Customer musteriler)
         {
             Console.WriteLine("Müşteri Silme İşlemi Başarılı Bir Şekilde Gerçekleştirildi!");
             Console.WriteLine("Silinen Müşteri Hesap No'su : " + musteriler.Id);
-            Console.WriteLine("Silinen Müşteri Hesap Adı : " + musteriler.Ad + musteriler.Soyad);
+            Console.WriteLine("Silinen Müşteri Hesap Adı : " + musteriler.Name + musteriler.Surname);
         }
 
         public void Listele(Customer  musteriler)
         {
-            Console.WriteLine(musteriler.Id + ", " + musteriler.Ad + ", " + musteriler.Soyad + ", " + musteriler.Yas);
+            Console.WriteLine(musteriler.Id + ", " + musteriler.Name + ", " + musteriler.Surname + ", " + musteriler.Age);
         }
 
 
